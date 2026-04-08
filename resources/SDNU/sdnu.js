@@ -258,18 +258,18 @@ async function saveCourses(parsedCourses) {
 
 // 统一作息时间
 const TimeSlots = [
-    { number: 1, startTime: "08:00", endTime: "08:45" },
-    { number: 2, startTime: "08:55", endTime: "09:40" },
-    { number: 3, startTime: "10:00", endTime: "10:45" },
-    { number: 4, startTime: "10:55", endTime: "11:40" },
-    { number: 5, startTime: "14:30", endTime: "15:15" },
-    { number: 6, startTime: "15:25", endTime: "16:10" },
-    { number: 7, startTime: "16:30", endTime: "17:15" },
-    { number: 8, startTime: "17:25", endTime: "18:10" },
-    { number: 9, startTime: "18:20", "endTime": "19:05" },
-    { number: 10, startTime: "19:30", "endTime": "20:15" },
-    { number: 11, startTime: "20:25", "endTime": "21:10" },
-    { number: 12, startTime: "21:20", "endTime": "22:05" }
+    { number: 1, startTime: "08:20", endTime: "09:05" },
+    { number: 2, startTime: "09:10", endTime: "09:55" },
+    { number: 3, startTime: "10:10", endTime: "10:55" },
+    { number: 4, startTime: "11:00", endTime: "11:45" },
+    { number: 5, startTime: "14:00", endTime: "14:45" },
+    { number: 6, startTime: "14:50", endTime: "15:35" },
+    { number: 7, startTime: "15:50", endTime: "16:35" },
+    { number: 8, startTime: "16:40", endTime: "17:25" },
+    { number: 9, startTime: "19:00", endTime: "19:45" },
+    { number: 10, startTime: "19:50", endTime: "20:35" },
+    { number: 11, startTime: "20:40", endTime: "21:25" },
+    { number: 12, startTime: "21:30", endTime: "22:15" }
 ];
 
 async function importPresetTimeSlots(timeSlots) {
